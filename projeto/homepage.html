@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>HomePage</title>
   <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
@@ -13,14 +13,18 @@
       <img src="./imagens/Group 17miniSmille.png" alt="mini 17miniSmille">
     </div>
     <div id="menuPart">
-      <a href="./index.html"> <img src="./imagens/VectorExit.png" alt="exit"></a>
-      <a href="##" id="menu">Menu</a>
+      <div id="menu">
+
+        <a href="##" id="menuBtn">Menu</a>
+      </div>
     </div>
   </header>
+  <div class="backdrop"></div>
   <div>
     <aside id="asideMenu">
       <button class="close">&times;</button>
       <a href="##" class="produtosMenu">Sobre Mim</a>
+      <a href="./index.html" class="produtosMenuFim"> <img src="./imagens/VectorExit.png" alt="exit"></a>
     </aside>
   </div>
   <div class="container">
@@ -28,31 +32,19 @@
       <img src="./imagens/Ellipse 163préimag.png" alt="imagemPerfil">
     </div>
     <div>
-      <h1>Meu Nome</h1>
+      <h1 id="meu-nome">Meu Nome</h1>
     </div>
+    <h2>
+      Tarefas
+    </h2>
     <div class="containerTarefas">
-      <h2>Tarefas
-      </h2>
-      <label class="containerCheckbox">Um
-        <input type="checkbox" checked="checked">
-        <span class="checkmark"></span>
-      </label>
-      <label class="containerCheckbox">Dois
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="containerCheckbox">Três
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="containerCheckbox">Quatro
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
+      
     </div>
     <div>
-      <button>Adicionar</button>
+      <button id="buttonAdicionar">Adicionar</button>
     </div>
   </div>
+  <script src="./script.js"></script>
+
 </body>
 </html>
